@@ -8,12 +8,8 @@ using Xunit;
 using Amazon.Lambda.Core;
 using Amazon.Lambda.TestUtilities;
 using Amazon.Lambda.APIGatewayEvents;
-
 using Newtonsoft.Json;
-
 using QueryApi;
-
-
 namespace QueryApi.Tests
 {
     public class ValuesControllerTests
@@ -35,7 +31,5 @@ namespace QueryApi.Tests
             Assert.True(response.MultiValueHeaders.ContainsKey("Content-Type"));
             Assert.Equal("application/json; charset=utf-8", response.MultiValueHeaders["Content-Type"][0]);
         }
-
-
     }
 }
