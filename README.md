@@ -1,7 +1,7 @@
 # dotnet-serverless-api
 
-📜 Description
+## 📜 Description
 A simple .NET serverless restful webapi
 
-🧠 Arch
+## 🧠 Arch
 AWS Api Gateway + Lambda function
